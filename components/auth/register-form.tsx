@@ -121,6 +121,7 @@ export const RegisterForm = () => {
             disabled={isPending}
             type="submit"
             className="w-full"
+            variant="destructive"
           >
             Create an account
           </Button>

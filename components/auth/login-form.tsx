@@ -157,6 +157,7 @@ export const LoginForm = () => {
             disabled={isPending}
             type="submit"
             className="w-full"
+            variant="destructive"
           >
             {showTwoFactor ? "Confirm" : "Login"}
           </Button>

@@ -221,6 +221,7 @@ const SettingsPage = () => {
             <Button
               disabled={isPending}
               type="submit"
+              variant="destructive"
             >
               Save
             </Button>
